@@ -100,7 +100,7 @@ Run the following command to sync the static files with the S3 bucket created pr
 s3 sync-bucket <bucket-name> <static dir>
 ```
 
-### Step 6 - Deploy the packaged build
+### Step 7 - Deploy the packaged build
 
 Run the following command to deploy the packaged build:
 
