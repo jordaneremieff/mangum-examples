@@ -1,6 +1,6 @@
 # mangum-example
 
-**Work in Progress / Experimental **
+**Work in Progress / Experimental**
 
 An example [Mangum](https://github.com/erm/mangum) deployment of a [Starlette](https://starlette.io) application that uses [asgi-s3](https://github.com/erm/asgi-s3) to serve static files.
 
