@@ -1,3 +1,0 @@
-mangum
-asgi-s3
-starlette[full]

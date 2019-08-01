@@ -52,11 +52,15 @@ async def server_error(request, exc):
 
 BUCKET_NAME = os.environ.get("BUCKET_NAME", None)
 REGION_NAME = os.environ.get("REGION_NAME", None)
+S3_AWS_ACCESS_KEY_ID = os.environ.get("S3_AWS_ACCESS_KEY_ID")
+S3_AWS_SECRET_ACCESS_KEY = os.environ.get("S3_AWS_SECRET_ACCESS_KEY")
 
 app.add_middleware(
     S3StorageMiddleware,
     bucket_name=BUCKET_NAME,
     region_name=REGION_NAME,
+    aws_access_key_id=S3_AWS_ACCESS_KEY_ID,
+    aws_secret_access_key=S3_AWS_SECRET_ACCESS_KEY,
     static_dir="static",
 )
 handler = Mangum(app)

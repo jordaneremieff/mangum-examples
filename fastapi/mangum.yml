@@ -1,0 +1,6 @@
+name: myapp
+code_dir: app
+handler: asgi.handler
+region_name: ap-southeast-1
+bucket_name: my-bucket-name
+timeout: 300

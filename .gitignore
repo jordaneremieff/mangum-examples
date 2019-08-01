@@ -1,8 +1,10 @@
 # Mangum config files
-template.json
-config.json
-packaged.yaml
+packaged.yml
+template.yml
+
 .env
+
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
