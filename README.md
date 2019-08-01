@@ -1,4 +1,4 @@
-# mangum-example
+# mangum-examples
 
 **Work in Progress / Experimental**
 
