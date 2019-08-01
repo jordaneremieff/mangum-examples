@@ -1,2 +1,2 @@
--e git://github.com/erm/mangum.git#egg=mangum
+mangum
 fastapi
