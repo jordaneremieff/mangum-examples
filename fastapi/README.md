@@ -10,7 +10,7 @@ python3.7 -m venv venv
 pip install mangum[full]
 ```
 
-## Step 2 - Modify the deployment configuration
+### Step 2 - Modify the deployment configuration
 
 A new `mangum.yml` config can be created using the `mangum init`, however this example already includes a `mangum.yml` file that may be edited, a `bucket_name` and a `region_name` will need to be defined:
 

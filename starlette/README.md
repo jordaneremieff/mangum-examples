@@ -36,7 +36,7 @@ S3_AWS_SECRET_ACCESS_KEY=key
 Replacing the `bucket-name` and `region-name` values with the details from the command output and credentials.
 
 
-## Step 2 - Modify the deployment configuration
+### Step 3 - Modify the deployment configuration
 
 A new `mangum.yml` config can be created using the `mangum init`, however this example already includes a `mangum.yml` file that may be edited, a `bucket_name` and a `region_name` will need to be defined:
 
@@ -48,16 +48,6 @@ region_name: ap-southeast-1
 bucket_name: my-bucket-name
 timeout: 300
 ```
-
-### Step 3 - Create a local build
-
-Run the following command to create a local application build:
-
-```shell
-mangum build
-```
-
-This will create a `build/` directory containing the application code and any dependencies included in `requirements.txt`.
 
 ### Step 4 - Create a local build
 
